@@ -64,7 +64,7 @@ program
     }
 })
 program
-    .command('total')
+    .command('summary')
     .description('Calculate total expenses')
     .option('--month <month>', 'Calculate total for a specific month (1-12)')
     .action((options)=>{
