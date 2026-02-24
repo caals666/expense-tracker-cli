@@ -1,0 +1,26 @@
+{
+  "name": "expense-tracker-cli",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/caals666/expense-tracker-cli#readme",
+  "bugs": {
+    "url": "https://github.com/caals666/expense-tracker-cli/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caals666/expense-tracker-cli.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "expense-tracker": "./index.js"
+  },
+  "dependencies": {
+    "commander": "^14.0.3"
+  }
+}
